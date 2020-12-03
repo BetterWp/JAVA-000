@@ -1,0 +1,12 @@
+server:
+  port: 9090
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+  main:
+    allow-bean-definition-overriding: true
+
+
